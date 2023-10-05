@@ -1,3 +1,4 @@
+// replaceTextWithNewLine.gs
 function replaceTextWithNewLine() {
 // create environment variable or paste the DOC_ID (can be grabbed from the document URL)
   var docId = PropertiesService.getScriptProperties().getProperty('DOC_ID');
